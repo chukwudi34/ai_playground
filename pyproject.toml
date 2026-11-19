@@ -1,0 +1,19 @@
+[project]
+name = "ai-playground"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Chukwudi", email = "chukwudinwafor34@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "google-adk>=2.14.1",
+]
+
+[project.scripts]
+ai-playground = "ai_playground:main"
+
+[build-system]
+requires = ["uv_build>=0.13.1,<0.14.0"]
+build-backend = "uv_build"
